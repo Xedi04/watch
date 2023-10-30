@@ -1,0 +1,19 @@
+@mixin section ($w, $bg, ) {
+    width: $w;
+    background-color: $bg;
+    @include flex;
+}
+
+@mixin cont-nav{
+    width:1450px;
+    @include flex;
+}
+@mixin cont{
+    width: 1300px;
+    @include flex;
+}
+@mixin flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
